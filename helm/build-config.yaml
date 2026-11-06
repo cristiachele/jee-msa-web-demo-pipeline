@@ -15,6 +15,8 @@ spec:
     type: Git
     git:
       uri: https://github.com/cristiachele/jee-msa-web-demo-pipeline.git
+    sourceSecret:
+      name: tokendev
   strategy:
     type: Docker
   output:
